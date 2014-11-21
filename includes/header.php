@@ -1,5 +1,6 @@
 <?php
   include("includes/arrays.php");
+  $companyName = "FRANKLE'S BOM JANTANDO";
 ?>
 <!DOCTYPE html>
 <html>

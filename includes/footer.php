@@ -15,15 +15,18 @@
     1:00pm - 1:10pm<br><br>
     <em>Thursday-Thursday</em><br>
     4:00pm - 4:01pm<br><br>
+    <em>Friday - Saturday</em><br>
+    8:00pm - 9:00pm<br><br>
     <em>Sunday</em><br>
-    (3:00am * -1) - (2:59pm * -1)<br><br>
+    3:00 am - 3:00 am<br><br>
     <em>Other Days/Hours</em>
     Closed<br><br>
+    <?php include("includes/store-hours.php"); //stolen from https://github.com/coryetzkorn/php-store-hours ?>
   </div><!--- column-three -->
 
 </div><!--footer-->
 
-<small>&copy;2014 Brad Hussey</small>
+<small>&copy;<?php echo date('Y'); ?> <?php echo $companyName ; ?></small>
 
 </div><!--content-->
 
