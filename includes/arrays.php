@@ -14,13 +14,13 @@
     ),
 
     array(
-      slug => "index.php",
-      title => "Contact"
+      slug => "menu.php",
+      title => "Menu"
     ),
 
     array(
       slug => "index.php",
-      title => "Dunno,lol"
+      title => "Contact"
     )
 
   ); //just add more array elements as more pages are added;
@@ -53,5 +53,43 @@
 
   );
 
+  $menuItems = array(         //let's create a page for each menu item. Each array inside the array will have the info for each plate.
+
+    "club-sandwich" => array(
+        title => "Club Sandwich",
+        price => 1.50,
+        blurb => "Lettuce, yesterday's bread, honey, tomatoes.",
+        sug_drink => "Toilet Water"
+    ),
+
+    "rotten-tuna" => array(
+        title => "Rotten Tuna",
+        price => 0.02,
+        blurb => "Some tuna I found in a river nearby. Meal prep not included.",
+        sug_drink => "Bananian Rum"
+    ),
+
+    "client-meatballs" => array(
+        title => "Client Meatballs",
+        price => 112.47,
+        blurb => "This is what happen when you try to run without paying. The house's specialty.",
+        sug_drink => "Watery Beer"
+    ),
+
+    "a-banana" => array(
+        title => "A Banana",
+        price => 0.96,
+        blurb => "This is a banana.",
+        sug_drink => "Green Juice (Bathroom fee: 2.00 $)"
+    ),
+
+    "rice-and-beans" => array(
+        title => "Rice and Beans",
+        price => 5.50,
+        blurb => "Rice and Beans. Just eat it and f off.",
+        sug_drink => "Uzbekistanian Vodka"
+    )
+
+  );
 
 ?>
