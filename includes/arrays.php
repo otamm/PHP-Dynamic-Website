@@ -9,7 +9,7 @@
     ),
 
     array(
-      slug => "index.php",
+      slug => "team.php",
       title => "Team"
     ),
 
