@@ -19,7 +19,7 @@
     ),
 
     array(
-      slug => "index.php",
+      slug => "contact.php",
       title => "Contact"
     )
 
